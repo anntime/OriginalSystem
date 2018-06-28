@@ -1,0 +1,41 @@
+<extend name="Common:base"/>
+<block name="body">
+    <!-- 内容区 -->
+    <div id="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+            <button class="close fixed" style="margin-top: 4px;">&times;</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div id="main" class="main">
+            <div class="main-title">
+                <h2>评估设置</h2>
+            </div>
+            <form action="{:U('/Admin/Evalue/saveEvalueSetting','','')}" method="post" class="form-horizontal">
+                <div class="form-item">
+                    <label class="item-label">
+                        模拟用户数
+                        <span class="check-tips">（默认用户数为10）</span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-SMALL" name="simulateNum" value="{$num|getSimulateNum}"/>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        间接信任用户所占比重(单位：%)
+                        <span class="check-tips"></span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-small" name="SimulatePercent" value="{$copy|getSimulatePercent}"/>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <button class="btn submit-btn"  type="submit" >确 定</button>
+                    <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- /内容区 -->
+</block>

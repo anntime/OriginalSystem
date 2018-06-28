@@ -1,0 +1,1008 @@
+[ 2015-03-21T21:48:23+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/
+ERR: 无法加载模块:Index
+
+[ 2015-03-21T21:48:36+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/index
+ERR: 无法加载模块:index
+
+[ 2015-03-21T21:49:38+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.003183s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `os_menu`
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000512s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1  
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000597s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `os_menu` 
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 79 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 65 行.
+NOTIC: [8] Undefined variable: mainUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 72 行.
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000404s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`Pid`,`Url` FROM `os_menu` 
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 31 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 37 行.
+
+[ 2015-03-21T21:49:46+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004294s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `os_menu`
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000407s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1  
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000399s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `os_menu` 
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 79 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 65 行.
+NOTIC: [8] Undefined variable: mainUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 72 行.
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000323s ]
+ERR: 1146:Table 'original.os_menu' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`Pid`,`Url` FROM `os_menu` 
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 31 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 37 行.
+
+[ 2015-03-21T21:52:15+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004281s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.002094s ]
+
+[ 2015-03-21T21:52:19+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004064s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000351s ]
+
+[ 2015-03-21T21:52:21+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.003262s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000491s ]
+NOTIC: [8] Undefined offset: -1 E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 40 行.
+
+[ 2015-03-21T21:52:24+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004858s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000287s ]
+NOTIC: [8] Undefined offset: -1 E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 40 行.
+
+[ 2015-03-21T21:52:30+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.002740s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000397s ]
+
+[ 2015-03-21T21:52:32+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004215s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000445s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000857s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.001731s ]
+
+[ 2015-03-21T21:52:37+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.004945s ]
+SQL: SELECT * FROM `os_menu` WHERE ( `Url` = 'Common/index' ) AND ( `Pid` = 0 ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 74 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.000247s ]
+NOTIC: [8] Undefined offset: -1 E:\xampp\htdocs\OriginalSystem\Home\Modules\Admin\Action\CommonAction.class.php 第 40 行.
+
+[ 2015-03-21T21:52:43+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.048533s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003124s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.007200s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.006211s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.056262s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.344360s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (1,'original_1','219.218.160.77','山东省','德州','116.29','37.45') [ RunTime:0.066460s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (13,'original_13','62.201.216.236','辽宁省','大连','121.62','38.92') [ RunTime:0.052821s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (19,'original_19','41.206.96.32','黑龙江省','齐齐哈尔','123.97','47.33') [ RunTime:0.043546s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (23,'original_23','193.90.147.3','山东省','潍坊','119.1','36.62') [ RunTime:0.043891s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (42,'original_42','197.199.253.26','江西省','南昌市','115.89','28.68') [ RunTime:0.044031s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (45,'original_45','197.199.254.56','江西省','宜春','114.38','27.81') [ RunTime:0.046831s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (54,'original_54','218.253.0.167','河南省','新野','112.36','32.51') [ RunTime:0.052349s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (68,'original_68','149.126.86.22','青海省','杂多','95.3','32.92') [ RunTime:0.045634s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (76,'original_76','218.176.242.53','青海省','同仁','102','35.54') [ RunTime:0.053550s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (77,'original_77','218.176.242.49','陕西省','西安','108.95','34.27') [ RunTime:0.044055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000397s ]
+
+[ 2015-03-21T21:52:45+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/1?id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.002943s ]
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 1 )  [ RunTime:0.000296s ]
+
+[ 2015-03-21T21:52:47+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.005701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004941s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004160s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.005467s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.095138s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.321930s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (26,'original_26','193.90.147.120','山东省','梁山','116.1','35.8') [ RunTime:0.066158s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (29,'original_29','103.25.178.58','江苏省','南京','118.78','32.04') [ RunTime:0.051890s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (33,'original_33','213.240.44.7','江苏省','宿迁','118.3','33.96') [ RunTime:0.044108s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (36,'original_36','203.117.34.133','浙江省','宁波','121.56','29.86') [ RunTime:0.043885s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (46,'original_46','218.189.25.160','江西省','井冈山','114.17','26.57') [ RunTime:0.043887s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (51,'original_51','218.253.0.88','河南省','平顶山','113.29','33.75') [ RunTime:0.044102s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (52,'original_52','218.253.0.142','河南省','安阳','114.35','36.1') [ RunTime:0.058299s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (59,'original_59','149.126.86.38','湖北省','神农架','110.68','31.75') [ RunTime:0.051919s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (62,'original_62','149.126.86.33','新疆自治区','乌鲁木齐','87.68','43.77') [ RunTime:0.044182s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (79,'original_79','218.176.242.38','陕西省','延安','109.47','36.6') [ RunTime:0.044009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000312s ]
+
+[ 2015-03-21T21:52:48+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/DealRequest?id=1&request=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.006957s ]
+SQL: SELECT * FROM `os_temp` WHERE ( `userId` <> '1' )  [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003517s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SimulatePercent" ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000278s ]
+
+[ 2015-03-21T21:53:24+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.006571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.008808s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.001341s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004999s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004032s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.062176s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.310917s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (7,'original_7','218.253.0.189','河北省','保定','115.48','38.85') [ RunTime:0.049945s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (17,'original_17','121.78.74.107','吉林省','通化','125.92','41.49') [ RunTime:0.060365s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (18,'original_18','121.78.74.123','黑龙江省','哈尔滨','126.63','45.75') [ RunTime:0.050095s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (19,'original_19','41.206.96.32','黑龙江省','齐齐哈尔','123.97','47.33') [ RunTime:0.043503s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (26,'original_26','193.90.147.120','山东省','梁山','116.1','35.8') [ RunTime:0.043999s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (32,'original_32','84.235.77.82','江苏省','常州','119.95','31.79') [ RunTime:0.044042s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (44,'original_44','197.199.254.21','江西省','婺源','117.83','29.25') [ RunTime:0.044032s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (76,'original_76','218.176.242.53','青海省','同仁','102','35.54') [ RunTime:0.060398s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (83,'original_83','218.176.242.90','四川省','成都','104.06','30.67') [ RunTime:0.049906s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (87,'admin','172.10.10.32','北京','朝阳区','116.49','39.88') [ RunTime:0.044203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.001561s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000449s ]
+
+[ 2015-03-21T21:53:25+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/26?id=26
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.003800s ]
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 26 )  [ RunTime:0.000399s ]
+
+[ 2015-03-21T21:53:26+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/26?id=26
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.005282s ]
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 26 )  [ RunTime:0.000421s ]
+
+[ 2015-03-21T21:53:29+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.006598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004515s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.008112s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.005071s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.099104s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.299944s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (3,'original_3','218.26.7.131','山西','太原','112.53','37.87') [ RunTime:0.054502s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (12,'original_12','111.92.162.49','辽宁省','沈阳','123.38','41.8') [ RunTime:0.046954s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (32,'original_32','84.235.77.82','江苏省','常州','119.95','31.79') [ RunTime:0.054247s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (39,'original_39','87.244.198.169','浙江省','绍兴','120.58','30.01') [ RunTime:0.043125s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (48,'original_48','218.189.25.153','河南省','郑州','113.65','34.76') [ RunTime:0.044056s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (49,'original_49','218.189.25.174','河南省','开封','114.35','34.79') [ RunTime:0.099339s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (65,'original_65','218.253.0.147','宁夏自治区','银川','106.27','38.47') [ RunTime:0.063388s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (73,'original_73','218.176.242.28','甘肃省','嘉峪关','98.25','39.82') [ RunTime:0.046304s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (80,'original_80','218.176.242.67','西藏自治区','拉萨','91.11','29.61') [ RunTime:0.043423s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (83,'original_83','218.176.242.90','四川省','成都','104.06','30.67') [ RunTime:0.043458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000418s ]
+
+[ 2015-03-21T21:53:32+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/DealRequest?id=26&request=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004497s ]
+SQL: SELECT * FROM `os_temp` WHERE ( `userId` <> '26' )  [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004868s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SimulatePercent" ) LIMIT 1   [ RunTime:0.000828s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000539s ]
+
+[ 2015-03-21T21:56:15+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003294s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.005431s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004973s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.094467s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.333229s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (4,'original_4','197.199.253.28','天津','南开区','117.2','39.13') [ RunTime:0.072607s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (5,'original_5','197.199.254.40','河北省','石家庄','114.48','38.03') [ RunTime:0.070601s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (7,'original_7','218.253.0.189','河北省','保定','115.48','38.85') [ RunTime:0.044140s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (23,'original_23','193.90.147.3','山东省','潍坊','119.1','36.62') [ RunTime:0.043833s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (29,'original_29','103.25.178.58','江苏省','南京','118.78','32.04') [ RunTime:0.044119s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (40,'original_40','123.205.250.88','安徽省','合肥','117.27','31.86') [ RunTime:0.043360s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (50,'original_50','218.189.25.139','河南省','洛阳','112.44','34.7') [ RunTime:0.043712s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (57,'original_57','149.126.86.13','湖北省','宜昌','111.3','30.7') [ RunTime:0.066234s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (63,'original_63','149.126.86.53','新疆自治区','伊尔克什坦','74','39.6') [ RunTime:0.043881s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (78,'original_78','218.176.242.43','陕西省','长安','108.97','34.18') [ RunTime:0.044089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000325s ]
+
+[ 2015-03-21T21:56:18+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/29?id=29
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.007100s ]
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 29 )  [ RunTime:0.000945s ]
+
+[ 2015-03-21T21:56:21+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003330s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.003484s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004986s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.006246s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.121965s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.301677s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (16,'original_16','121.78.74.88','吉林省','长春','125.35','43.88') [ RunTime:0.052934s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (19,'original_19','41.206.96.32','黑龙江省','齐齐哈尔','123.97','47.33') [ RunTime:0.043774s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (24,'original_24','193.90.147.32','山东省','烟台','121.39','37.52') [ RunTime:0.045291s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (29,'original_29','103.25.178.58','江苏省','南京','118.78','32.04') [ RunTime:0.066024s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (37,'original_37','62.197.198.195','浙江省','舟山','122.13','30.08') [ RunTime:0.053473s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (47,'original_47','218.189.25.162','江西省','赣州','114.92','25.85') [ RunTime:0.043955s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (54,'original_54','218.253.0.167','河南省','新野','112.36','32.51') [ RunTime:0.043857s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (60,'original_60','149.126.86.39','台湾省','台北','121.51','25.06') [ RunTime:0.043386s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (67,'original_67','218.253.0.185','青海省','西宁','101.74','36.56') [ RunTime:0.043777s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (80,'original_80','218.176.242.67','西藏自治区','拉萨','91.11','29.61') [ RunTime:0.056122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000449s ]
+
+[ 2015-03-21T21:56:25+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/DealRequest?id=29&request=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004485s ]
+SQL: SELECT * FROM `os_temp` WHERE ( `userId` <> '29' )  [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004409s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SimulatePercent" ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000263s ]
+
+[ 2015-03-21T21:59:19+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.003449s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004141s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004691s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.003703s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.625667s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.444421s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (44,'original_44','197.199.254.21','江西省','婺源','117.83','29.25') [ RunTime:0.051298s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (48,'original_48','218.189.25.153','河南省','郑州','113.65','34.76') [ RunTime:0.044205s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (54,'original_54','218.253.0.167','河南省','新野','112.36','32.51') [ RunTime:0.043816s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (55,'original_55','218.253.0.173','湖北省','武汉','114.31','30.52') [ RunTime:0.043767s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (56,'original_56','218.253.0.182','湖北省','武昌','114.33','30.35') [ RunTime:0.047425s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (57,'original_57','149.126.86.13','湖北省','宜昌','111.3','30.7') [ RunTime:0.051539s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (59,'original_59','149.126.86.38','湖北省','神农架','110.68','31.75') [ RunTime:0.043820s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (80,'original_80','218.176.242.67','西藏自治区','拉萨','91.11','29.61') [ RunTime:0.043610s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (81,'original_81','218.176.242.74','云南省','昆明','102.73','25.04') [ RunTime:0.043569s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (87,'admin','172.10.10.32','北京','朝阳区','116.49','39.88') [ RunTime:0.043791s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2015-03-21T21:59:21+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/54?id=54
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004936s ]
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 54 )  [ RunTime:0.000453s ]
+
+[ 2015-03-21T21:59:24+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.003696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003639s ]
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.006217s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004817s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.387699s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.322445s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given E:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (5,'original_5','197.199.254.40','河北省','石家庄','114.48','38.03') [ RunTime:0.051432s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (12,'original_12','111.92.162.49','辽宁省','沈阳','123.38','41.8') [ RunTime:0.393221s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (15,'original_15','218.176.242.79','辽宁省','铁岭','123.85','42.32') [ RunTime:0.047218s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (24,'original_24','193.90.147.32','山东省','烟台','121.39','37.52') [ RunTime:0.043671s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (28,'original_28','103.25.178.55','山东省','东阿','116.23','36.32') [ RunTime:0.043803s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (33,'original_33','213.240.44.7','江苏省','宿迁','118.3','33.96') [ RunTime:0.043734s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (34,'original_34','203.116.165.131','江苏省','镇江','119.44','32.2') [ RunTime:0.059867s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (72,'original_72','218.176.242.16','甘肃省','靖远','104.71','36.54') [ RunTime:0.049922s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (77,'original_77','218.176.242.49','陕西省','西安','108.95','34.27') [ RunTime:0.043575s ]
+NOTIC: [8] Undefined variable: id E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (78,'original_78','218.176.242.43','陕西省','长安','108.97','34.18') [ RunTime:0.043886s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.001454s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000663s ]
+
+[ 2015-03-21T21:59:27+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/DealRequest?id=54&request=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004002s ]
+SQL: SELECT * FROM `os_temp` WHERE ( `userId` <> '54' )  [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003094s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SimulatePercent" ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: IndirectString E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 193 行.
+NOTIC: [8] Undefined variable: DirectString E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.003206s ]
+SQL: SELECT MAX(times) AS tp_max FROM `os_interdetail` WHERE ( userId=54 ) LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: userId E:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 206 行.
+SQL: INSERT INTO `os_interdetail` (`IndirectUser`,`DirectUser`,`time`,`userId`,`request`,`times`,`totalScore`,`isPass`) VALUES ('5:0.6;15:7;33:2.9;77:9.5;78:9.6','12:0;24:0;28:0;34:0;72:0',1426946367,54,2,1,85,1) [ RunTime:0.380396s ]
+
+[ 2015-03-21T21:59:31+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getStartTimeline?id=78&time=1426944521
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004071s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.002889s ]
+SQL: SELECT * FROM `os_interdetail` WHERE ( `userId` = 78 ) AND ( `time` = 1426944521 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 20 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 81 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 35 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 36 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000198s ]
+
+[ 2015-03-21T21:59:35+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/InterDeal/getStartTimeline?id=18&time=1425464554
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004465s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.003242s ]
+SQL: SELECT * FROM `os_interdetail` WHERE ( `userId` = 18 ) AND ( `time` = 1425464554 ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 36 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 41 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 60 ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\OriginalSystem\Home\Class\History.class.php 第 23 行.
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 32 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user` WHERE ( `id` = 80 ) LIMIT 1   [ RunTime:0.000228s ]
+
+[ 2015-03-21T22:00:02+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/Monitor/InitMonitor
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.005552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867200<br>' AND '1426946402' ) ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` LIMIT 1   [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.005459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003550s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxUserNum" ) LIMIT 1   [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `os_net` [ RunTime:0.004758s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_net` LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxNetSetting" ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `os_auth` [ RunTime:0.004438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_auth` LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxAuthNum" ) LIMIT 1   [ RunTime:0.000386s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426942802' AND '1426946402' ) ) LIMIT 1   [ RunTime:0.002663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426939202' AND '1426942802' ) ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426935602' AND '1426939202' ) ) LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426932002' AND '1426935602' ) ) LIMIT 1   [ RunTime:0.000757s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426928402' AND '1426932002' ) ) LIMIT 1   [ RunTime:0.000666s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426924802' AND '1426928402' ) ) LIMIT 1   [ RunTime:0.000535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426921202' AND '1426924802' ) ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426917602' AND '1426921202' ) ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426914002' AND '1426917602' ) ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426910402' AND '1426914002' ) ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426906802' AND '1426910402' ) ) LIMIT 1   [ RunTime:0.001040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426903202' AND '1426906802' ) ) LIMIT 1   [ RunTime:0.001178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426899602' AND '1426903202' ) ) LIMIT 1   [ RunTime:0.000971s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426896002' AND '1426899602' ) ) LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426892402' AND '1426896002' ) ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426888802' AND '1426892402' ) ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426885202' AND '1426888802' ) ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426881602' AND '1426885202' ) ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426878002' AND '1426881602' ) ) LIMIT 1   [ RunTime:0.000684s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426874402' AND '1426878002' ) ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426870802' AND '1426874402' ) ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867202' AND '1426870802' ) ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426863602' AND '1426867202' ) ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426860002' AND '1426863602' ) ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426856402' AND '1426860002' ) ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `os_auth`  [ RunTime:0.000217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 1 ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 2 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 3 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: select *,count(distinct userId) from os_interdetail group by userId order by times desc [ RunTime:0.004744s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 75 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 79 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000588s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 83 ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 81 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 72 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 40 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 33 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 74 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000939s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 84 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 80 ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000923s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 10   [ RunTime:0.001033s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000223s ]
+
+[ 2015-03-21T22:00:47+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/Monitor/InitMonitor
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.005326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867200<br>' AND '1426946447' ) ) LIMIT 1   [ RunTime:0.000913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` LIMIT 1   [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004182s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxUserNum" ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `os_net` [ RunTime:0.004222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_net` LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxNetSetting" ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `os_auth` [ RunTime:0.005015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_auth` LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxAuthNum" ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426942847' AND '1426946447' ) ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426939247' AND '1426942847' ) ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426935647' AND '1426939247' ) ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426932047' AND '1426935647' ) ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426928447' AND '1426932047' ) ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426924847' AND '1426928447' ) ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426921247' AND '1426924847' ) ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426917647' AND '1426921247' ) ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426914047' AND '1426917647' ) ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426910447' AND '1426914047' ) ) LIMIT 1   [ RunTime:0.000537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426906847' AND '1426910447' ) ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426903247' AND '1426906847' ) ) LIMIT 1   [ RunTime:0.000730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426899647' AND '1426903247' ) ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426896047' AND '1426899647' ) ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426892447' AND '1426896047' ) ) LIMIT 1   [ RunTime:0.000982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426888847' AND '1426892447' ) ) LIMIT 1   [ RunTime:0.000755s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426885247' AND '1426888847' ) ) LIMIT 1   [ RunTime:0.000770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426881647' AND '1426885247' ) ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426878047' AND '1426881647' ) ) LIMIT 1   [ RunTime:0.000713s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426874447' AND '1426878047' ) ) LIMIT 1   [ RunTime:0.000915s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426870847' AND '1426874447' ) ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867247' AND '1426870847' ) ) LIMIT 1   [ RunTime:0.000949s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426863647' AND '1426867247' ) ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426860047' AND '1426863647' ) ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426856447' AND '1426860047' ) ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `os_auth`  [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 2 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 3 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: select *,count(distinct userId) from os_interdetail group by userId order by times desc [ RunTime:0.001507s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 75 ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 79 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 83 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 81 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 72 ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 40 ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 33 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 74 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.002179s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 84 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 80 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 10   [ RunTime:0.000689s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000927s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000283s ]
+
+[ 2015-03-21T22:02:15+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/Monitor/InitMonitor
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867200<br>' AND '1426946535' ) ) LIMIT 1   [ RunTime:0.001200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` LIMIT 1   [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.006850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004451s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxUserNum" ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `os_net` [ RunTime:0.010211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_net` LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxNetSetting" ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `os_auth` [ RunTime:0.005008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_auth` LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxAuthNum" ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426942935' AND '1426946535' ) ) LIMIT 1   [ RunTime:0.001199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426939335' AND '1426942935' ) ) LIMIT 1   [ RunTime:0.001221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426935735' AND '1426939335' ) ) LIMIT 1   [ RunTime:0.002073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426932135' AND '1426935735' ) ) LIMIT 1   [ RunTime:0.001343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426928535' AND '1426932135' ) ) LIMIT 1   [ RunTime:0.000884s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426924935' AND '1426928535' ) ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426921335' AND '1426924935' ) ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426917735' AND '1426921335' ) ) LIMIT 1   [ RunTime:0.002666s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426914135' AND '1426917735' ) ) LIMIT 1   [ RunTime:0.000794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426910535' AND '1426914135' ) ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426906935' AND '1426910535' ) ) LIMIT 1   [ RunTime:0.000809s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426903335' AND '1426906935' ) ) LIMIT 1   [ RunTime:0.000536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426899735' AND '1426903335' ) ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426896135' AND '1426899735' ) ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426892535' AND '1426896135' ) ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426888935' AND '1426892535' ) ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426885335' AND '1426888935' ) ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426881735' AND '1426885335' ) ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426878135' AND '1426881735' ) ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426874535' AND '1426878135' ) ) LIMIT 1   [ RunTime:0.003208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426870935' AND '1426874535' ) ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867335' AND '1426870935' ) ) LIMIT 1   [ RunTime:0.000633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426863735' AND '1426867335' ) ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426860135' AND '1426863735' ) ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426856535' AND '1426860135' ) ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `os_auth`  [ RunTime:0.000268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 2 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 3 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: select *,count(distinct userId) from os_interdetail group by userId order by times desc [ RunTime:0.001851s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.002836s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 75 ) LIMIT 1   [ RunTime:0.000513s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 79 ) LIMIT 1   [ RunTime:0.001464s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000929s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 83 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 81 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 72 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 40 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 33 ) LIMIT 1   [ RunTime:0.003659s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.001100s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 74 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.003216s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000667s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.001009s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000773s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.001240s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 84 ) LIMIT 1   [ RunTime:0.001037s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 80 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 10   [ RunTime:0.000845s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000583s ]
+
+[ 2015-03-21T22:02:29+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/Monitor/getCountByProvience
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `os_userinterinfo` [ RunTime:0.004202s ]
+SQL: select province,count(distinct id) as CountNum from os_userinterinfo group by province order by CountNum DESC [ RunTime:0.691411s ]
+
+[ 2015-03-21T22:02:34+08:00 ] 0.0.0.0 /OriginalSystem/index.php/Index/Monitor/InitMonitor
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.005216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867200<br>' AND '1426946554' ) ) LIMIT 1   [ RunTime:0.001080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` LIMIT 1   [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.003997s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004330s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxUserNum" ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `os_net` [ RunTime:0.003624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_net` LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxNetSetting" ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `os_auth` [ RunTime:0.006211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_auth` LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `os_config` WHERE ( Conf="MaxAuthNum" ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426942954' AND '1426946554' ) ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426939354' AND '1426942954' ) ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426935754' AND '1426939354' ) ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426932154' AND '1426935754' ) ) LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426928554' AND '1426932154' ) ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426924954' AND '1426928554' ) ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426921354' AND '1426924954' ) ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426917754' AND '1426921354' ) ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426914154' AND '1426917754' ) ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426910554' AND '1426914154' ) ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426906954' AND '1426910554' ) ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426903354' AND '1426906954' ) ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426899754' AND '1426903354' ) ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426896154' AND '1426899754' ) ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426892554' AND '1426896154' ) ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426888954' AND '1426892554' ) ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426885354' AND '1426888954' ) ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426881754' AND '1426885354' ) ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426878154' AND '1426881754' ) ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426874554' AND '1426878154' ) ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426870954' AND '1426874554' ) ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426867354' AND '1426870954' ) ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426863754' AND '1426867354' ) ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426860154' AND '1426863754' ) ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE (  (`time` BETWEEN '1426856554' AND '1426860154' ) ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT * FROM `os_auth`  [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 1 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 2 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `os_interdetail` WHERE ( `request` = 3 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: select *,count(distinct userId) from os_interdetail group by userId order by times desc [ RunTime:0.001637s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 66 ) LIMIT 1   [ RunTime:0.002627s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 75 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 79 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 83 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 81 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 23 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 72 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 65 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 40 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 33 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 24 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 69 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 74 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 68 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 70 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 63 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 19 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 52 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 84 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 80 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 10   [ RunTime:0.000971s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 54 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 78 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 18 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 76 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 67 ) LIMIT 1   [ RunTime:0.002308s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 77 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 73 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `province`,`city`,`ip`,`username`,id as userId FROM `os_user` WHERE ( `id` = 21 ) LIMIT 1   [ RunTime:0.000275s ]
+

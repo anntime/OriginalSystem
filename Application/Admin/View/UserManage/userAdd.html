@@ -1,0 +1,79 @@
+<extend name ="Common:base"/>
+<block name="body">
+    <!-- 内容区 -->
+    <div id="main-content">
+        <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+            <button class="close fixed" style="margin-top: 4px;">&times;</button>
+            <div class="alert-content">这是内容</div>
+        </div>
+        <div id="main" class="main">
+            <div class="main-title">
+                <h2>新增用户</h2>
+            </div>
+            <form action="{:U('/Admin/UserManage/douserAdd','','')}" method="post" class="form-horizontal">
+                <div class="form-item">
+                    <label class="item-label">
+                        用户名
+                        <span class="check-tips">（用户名会作为默认的昵称）</span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="username" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        密码
+                        <span class="check-tips">（用户密码不能少于6位）</span>
+                    </label>
+                    <div class="controls">
+                        <input type="password" class="text input-large" name="password" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        省份
+                        <span class="check-tips"></span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="province" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        城市
+                        <span class="check-tips">（区或者市）</span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="city" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        经度
+                        <span class="check-tips"></span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="longitude" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        纬度
+                        <span class="check-tips"></span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="latitude" value=""></div>
+                </div>
+                <div class="form-item">
+                    <label class="item-label">
+                        IP地址
+                        <span class="check-tips"></span>
+                    </label>
+                    <div class="controls">
+                        <input type="text" class="text input-large" name="ip" value=""></div>
+                </div>
+                <div class="form-item">
+                    <button class="btn submit-btn"  type="submit" >确 定</button>
+                    <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- /内容区 -->
+</block>

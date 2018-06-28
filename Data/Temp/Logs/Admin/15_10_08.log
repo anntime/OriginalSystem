@@ -1,0 +1,113 @@
+[ 2015-10-08T14:20:26+08:00 ] ::1 /originalsystem/Application/Admin/View/Public/js/jquery-1.10.2.min.js
+ERR: 无法加载控制器:Application
+
+[ 2015-10-08T14:20:33+08:00 ] ::1 /originalsystem/index.php/Admin/Index/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'original.os_menu' doesn't exist
+
+[ 2015-10-08T14:21:24+08:00 ] ::1 /originalsystem/index.php/Admin/Common/getUrl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `os_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `os_menu` WHERE `Url` = 'Common/index' AND `Pid` = 0 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `os_menu`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: subUrl E:\xampp\htdocs\OriginalSystem\Application\Admin\Action\CommonAction.class.php 第 68 行.
+NOTIC: [8] Undefined variable: thirdUrl E:\xampp\htdocs\OriginalSystem\Application\Admin\Action\CommonAction.class.php 第 69 行.
+SQL: SELECT `id`,`Pid`,`Url` FROM `os_menu`  [ RunTime:0.0006s ]
+
+[ 2015-10-08T14:22:52+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:24:25+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:25:10+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:25:24+08:00 ] ::1 /originalsystem/index.php/InterDeal
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:25:43+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:29:04+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:29:51+08:00 ] ::1 /originalsystem/index.php/UserInfo/index
+ERR: 无法加载控制器:UserInfo
+
+[ 2015-10-08T14:30:12+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:30:44+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:30:52+08:00 ] ::1 /originalsystem/index.php/ShowIndex/index
+ERR: 无法加载控制器:ShowIndex
+
+[ 2015-10-08T14:32:41+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:32:44+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:33:08+08:00 ] ::1 /originalsystem/index.php/InterDeal/InitSimulate
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:34:25+08:00 ] ::1 /originalsystem/index.php/InterDeal/getInfoById/id/27?id=27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003713s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:34:35+08:00 ] ::1 /originalsystem/index.php/InterDeal/DealRequest?id=27&request=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003946s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:35:09+08:00 ] ::1 /originalsystem/index.php/InterDeal
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:35:37+08:00 ] ::1 /originalsystem/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T14:38:01+08:00 ] ::1 /originalsystem/InterDeal/getInfoById/id/57?id=57
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008089s ]
+ERR: 无法加载控制器:InterDeal
+
+[ 2015-10-08T16:16:09+08:00 ] ::1 /originalsystem/ShowIndex/index
+ERR: 无法加载控制器:ShowIndex
+

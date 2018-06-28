@@ -1,0 +1,198 @@
+[ 2015-04-19T10:59:02+08:00 ] 127.0.0.1 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.007001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.006000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.010001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.007001s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.014000s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.010001s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (9,'original_9','149.126.86.11','内蒙自治区','呼和浩特','111.65','40.82') [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (13,'original_13','62.201.216.236','辽宁省','大连','121.62','38.92') [ RunTime:0.006001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (17,'original_17','121.78.74.107','吉林省','通化','125.92','41.49') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (18,'original_18','121.78.74.123','黑龙江省','哈尔滨','126.63','45.75') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (19,'original_19','41.206.96.32','黑龙江省','齐齐哈尔','123.97','47.33') [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (20,'original_20','41.206.96.59','黑龙江省','漠河','122.37','53') [ RunTime:0.009001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (26,'original_26','193.90.147.120','山东省','梁山','116.1','35.8') [ RunTime:0.016001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (28,'original_28','103.25.178.55','山东省','东阿','116.23','36.32') [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (36,'original_36','203.117.34.133','浙江省','宁波','121.56','29.86') [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (37,'original_37','62.197.198.195','浙江省','舟山','122.13','30.08') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (59,'original_59','149.126.86.38','湖北省','神农架','110.68','31.75') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (64,'original_64','49.126.86.59','新疆自治区','和田','79.94','37.12') [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (76,'original_76','218.176.242.53','青海省','同仁','102','35.54') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (84,'original_84','218.176.242.75','重庆市','市区','106.54','29.59') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (88,'','','','','0','0') [ RunTime:0.009001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-19T10:59:07+08:00 ] 127.0.0.1 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.006001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.005000s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.011001s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.008000s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (3,'original_3','218.26.7.131','山西','太原','112.53','37.87') [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (5,'original_5','197.199.254.40','河北省','石家庄','114.48','38.03') [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (11,'original_11','111.92.162.42','内蒙自治区','赤峰','118.87','42.28') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (20,'original_20','41.206.96.59','黑龙江省','漠河','122.37','53') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (29,'original_29','103.25.178.58','江苏省','南京','118.78','32.04') [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (38,'original_38','62.197.198.250','浙江省','嘉兴','120.76','30.77') [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (41,'original_41','123.205.250.178','福建省','厦门','118.1','24.46') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (43,'original_43','197.199.253.58','江西省','景德镇','117.22','29.3') [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (45,'original_45','197.199.254.56','江西省','宜春','114.38','27.81') [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (51,'original_51','218.253.0.88','河南省','平顶山','113.29','33.75') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (59,'original_59','149.126.86.38','湖北省','神农架','110.68','31.75') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (66,'original_66','218.253.0.143','宁夏自治区','盐池','107.41','37.78') [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (67,'original_67','218.253.0.185','青海省','西宁','101.74','36.56') [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (73,'original_73','218.176.242.28','甘肃省','嘉峪关','98.25','39.82') [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (83,'original_83','218.176.242.90','四川省','成都','104.06','30.67') [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-19T10:59:09+08:00 ] 127.0.0.1 /OriginalSystem/index.php/Index/InterDeal/getInfoById/id/73?id=73
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_user` WHERE ( `id` = 73 )  [ RunTime:0.000000s ]
+
+[ 2015-04-19T10:59:09+08:00 ] 127.0.0.1 /OriginalSystem/index.php/Index/InterDeal/InitSimulate
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `os_user` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT `val` FROM `os_config` WHERE ( Conf='SIMULATE_NUM' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT id as userId,`username`,`ip`,`province`,`city`,`longitude`,`latitude` FROM `os_user`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_interdetail` ORDER BY time desc LIMIT 7   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.004000s ]
+SQL: DELETE FROM `os_temp` WHERE ( 1 ) [ RunTime:0.005001s ]
+SQL: alter table os_temp AUTO_INCREMENT=1; [ RunTime:0.009000s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 80 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (4,'original_4','197.199.253.28','天津','南开区','117.2','39.13') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (8,'original_8','149.126.86.5','山西省','长治','113.08','36.18') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (10,'original_10','149.126.86.59','内蒙自治区','包头','110','40.58') [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (17,'original_17','121.78.74.107','吉林省','通化','125.92','41.49') [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (25,'original_25','193.90.147.39','山东省','泰安','117.13','36.18') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (33,'original_33','213.240.44.7','江苏省','宿迁','118.3','33.96') [ RunTime:0.009001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (46,'original_46','218.189.25.160','江西省','井冈山','114.17','26.57') [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (52,'original_52','218.253.0.142','河南省','安阳','114.35','36.1') [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (53,'original_53','218.253.0.152','河南省','周口','114.63','33.63') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (54,'original_54','218.253.0.167','河南省','新野','112.36','32.51') [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (58,'original_58','149.126.86.25','湖北省','黄冈','114.87','30.44') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (61,'original_61','149.126.86.27','香港行政区','本区','114.17','22.26') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (76,'original_76','218.176.242.53','青海省','同仁','102','35.54') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (83,'original_83','218.176.242.90','四川省','成都','104.06','30.67') [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 59 行.
+SQL: INSERT INTO `os_temp` (`userId`,`username`,`ip`,`province`,`city`,`longitude`,`latitude`) VALUES (84,'original_84','218.176.242.75','重庆市','市区','106.54','29.59') [ RunTime:0.004001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `os_temp` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-19T10:59:11+08:00 ] 127.0.0.1 /OriginalSystem/index.php/Index/InterDeal/DealRequest?id=73&request=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `os_temp` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_temp` WHERE ( `userId` <> '73' )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `os_config` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SimulatePercent" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT * FROM `os_config` WHERE ( Conf="SIMULATE_NUM" ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: IndirectString D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 193 行.
+NOTIC: [8] Undefined variable: DirectString D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `os_interdetail` [ RunTime:0.005000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead D:\xampp\htdocs\OriginalSystem\ThinkPHP\Lib\Core\Db.class.php 第 605 行.
+SQL: SELECT MAX(times) AS tp_max FROM `os_interdetail` WHERE ( userId=73 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: userId D:\xampp\htdocs\OriginalSystem\Home\Modules\Index\Action\InterDealAction.class.php 第 206 行.
+SQL: INSERT INTO `os_interdetail` (`IndirectUser`,`DirectUser`,`time`,`userId`,`request`,`times`,`totalScore`,`isPass`) VALUES ('10:7.8;33:3.9;46:6.4;52:0.3;54:1.5;84:0.4','4:0;8:0;17:0;25:0;53:0;58:0;61:0;76:0;83:0',1429412351,73,2,3,95,1) [ RunTime:0.011001s ]
+
